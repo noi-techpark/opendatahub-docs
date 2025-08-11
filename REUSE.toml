@@ -1,0 +1,22 @@
+version = 1
+SPDX-PackageName = "documentation"
+SPDX-PackageSupplier = "NOI Techpark <digital@noi.bz.it>"
+SPDX-PackageDownloadLocation = "https://github.com/noi-techpark/documentation"
+
+[[annotations]]
+path = ["make.bat", "Makefile", ".pre-commit-config.yaml", "requirements.txt", "source/**.rst", "source/**.txt", "source/**.sty", "source/_static/fonts/**", "source/images/**", "**/.yaml", "**/.yml"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "(c) NOI Techpark <digital@noi.bz.it>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "source/_static/css/bootstrap.min.css"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["(c) 2011-2018 The Bootstrap Authors", "(c) 2011-2018 Twitter, Inc."]
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "source/_static/css/odh.css"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "(c) 2013-2018 Dave Snider, Read the Docs, Inc. & contributors"
+SPDX-License-Identifier = "MIT"
