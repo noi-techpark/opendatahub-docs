@@ -3,6 +3,7 @@ SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
 
 SPDX-License-Identifier: CC0-1.0
 -->
+[![REUSE Compliance](https://github.com/noi-techpark/opendatahub-docs/actions/workflows/reuse.yml/badge.svg)](https://github.com/noi-techpark/opendatahub-docs/wiki/REUSE#badges)
 
 Open Data Hub Documentation
 =============================
