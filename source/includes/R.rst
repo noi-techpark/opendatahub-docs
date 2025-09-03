@@ -9,6 +9,3 @@ an R package that can be used to access `BZ Analytics
 capabilities. Download and installation instructions, along with
 example usage can be found on the `bzar repository
 <https://github.com/noi-techpark/it.bz.opendatahub.analytics.libs/tree/main/api/R>`_.
-
-.. seealso:: There is a howto that explains how to fetch data from the
-   |odh| datasets using R and SPARQL: :ref:`howto-r`.

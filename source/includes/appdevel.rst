@@ -20,15 +20,3 @@
    Web Components <https://webcomponents.opendatahub.com/>`_ that can
    be integrated in existing web sites or used as guidance to develop
    new Web Components.
-
-...publish my app in Open Data Hub.
-   As soon as you have developed a stable version of your app, get in
-   touch with us: We plan to maintain an updated list of apps based on
-   our dataset included with this documentation.
-
-
-No software installation is needed: Go to the list of :ref:`available
-applications developed by third-parties <applist>` that use Open Data Hub
-data, to the API documentation of each :ref:`Dataset
-<available_datasets>` and start from there, and develop in a language
-of your choice an application that uses our data.

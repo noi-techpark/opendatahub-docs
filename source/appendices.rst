@@ -10,7 +10,5 @@ The following is the list of appendices.
    :caption: Appendices
    :maxdepth: 4
 
-   architecture
-   glossary
-   changelog
+   architecture   
 

@@ -40,25 +40,6 @@ The calls defined for every datasets are:
 
 - :literal:`/api/{Name}` Return the whole dataset.
 - :literal:`/api/{Name}/{Id}` Return only item with given :literal:`{Id}`\.
-- :literal:`/api/{Name}Reduced` Return only the list of Ids and
-  respective name of the items in the dataset. It is useful to create
-  lists of items or just to have an overview of the dataset's items.
-- :literal:`/api/{Name}Changed` Return all items that have changed
-  since date :literal:`YYYY-MM-DD`
-- :literal:`/api/{Name}Types` Returns all types of data present in
-  the dataset, that can be later used to ask more precise queries to
-  the dataset.
-
-The following calls have been :strong:`removed` and can not be used
-anymore. They have been replaced by a new filter, called `language`,
-that operates on the datasets in a similar way to the
-:ref:`fields-filter` and is described in section
-:ref:`language-filter`.
-
-- :strike:`/api/{Name}Localized Return the whole dataset in only
-  the given language (which is a mandatory part of the query)`
-- :strike:`/api/{Name}Localized/{Id} Return only item with given Id
-  an in given language.`
 
 .. _common-filters:
 
@@ -92,13 +73,6 @@ examples of their use can be found in section :doc:`/howto/tourism/tips`.
   crow flies.
 - :strong:`IdFilter` allows to extract from the dataset only the items
   with the given IDs, separated with a :literal:`,`.
-- :strong:`Active` and :strong:`OdhActive`. Filters with the same
-  name, with one prefixed by :strong:`Odh` refer to the same
-  parameter. The difference is however important: :strong:`Active`
-  indicates that the item is present in the original dataset provided,
-  while :strong:`OdhActive` shows that the item has been verified by
-  the Open Data Hub team and is present in the Open Data Hub. See
-  discussion in tip :ref:`TT2 <tour-tt2>`.
 - :strong:`ODHTag` allows to filter a result set according to tag
   defined by the Open Data Hub team. These tags are mostly related
   with places to see, activities that can be carried out in winter or

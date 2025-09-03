@@ -3,7 +3,7 @@
 License of the JSON Responses
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Whenever you query the data in the |odh|\, the snippet that you
+Whenever you query the data in the tourism domain of the |odh|\, the snippet that you
 retrieve always includes a block of information called
 :literal:`LicenseInfo`, similar to the following one:
 

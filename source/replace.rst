@@ -21,7 +21,7 @@
    :alt: CC0 license (public domain)
 
 .. |auth| image:: /images/authorisation-required-orange.png
-   :alt: This dataset requires authorisation
+   :alt: This dataset requires authorization
 
 .. |cc0-badge| image:: /images/cc0.png
 

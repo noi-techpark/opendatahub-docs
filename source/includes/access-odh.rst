@@ -29,42 +29,6 @@ Besides the online tools developed by the |odh| and described in
 section :ref:`quickstart`, these other resources can be access using a
 browser.
 
-.. grid:: 1 1 1 3
-   :gutter: 1
-
-   .. grid-item-card::
-      :columns: 12 12 12 4
-
-      Go to the :ref:`applist` section of the documentation,
-      particularly sub-sections :ref:`production-stage-apps` and
-      :ref:`beta-stage-apps`, and choose one of the web sites and
-      portals that are listed there. Each of them uses the data
-      gathered from one or more |odh|\ 's datasets to display a number
-      of useful information. You can then see how data are exposed and
-      browse them.
-
-   .. grid-item-card::
-      :columns: 12 12 12 4
-
-      In the same :ref:`applist` section, you can also check the list
-      of the :ref:`alpha-stage-apps` and choose one of them that
-      you think you can expand, then get in touch with the authors to
-      suggest additional features or collaborate with them to discuss
-      its further development to improve it.
-
-
-   .. grid-item-card::
-      :columns: 12 12 12 4
-
-      Open the `Open Data Hub Knowledge Graph Portal
-      <https://sparql.opendatahub.com/>`_ where you can explore all
-      the data that are already available as a virtual knowledge
-      graph. Here you can check out some of the precooked query to see
-      and modify them to suit your needs with the help of W3C's
-      `SPARQL query language
-      <https://www.w3.org/TR/sparql11-overview/>`_; SPARQL can be used
-      also in the `Playground` to freely query the endpoint.
-
 Programmatic access
 -------------------
 
@@ -113,17 +77,6 @@ by the |odh| team.
       CLI access
       ^^^^^^^^^^
       .. include:: /includes/CLI.rst
-
-.. odh vkg km
-
-.. _datasets-km:
-
-.. _odh-vkg:
-
-The |odh| Virtual Knowledge Graph
----------------------------------
-
-.. include:: /includes/kg.rst
 
 .. _alpinebits_client:
 

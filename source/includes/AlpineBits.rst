@@ -27,7 +27,7 @@ Areas`, `Places`, `Trails`, `Agents`, and so on.
 
 The full specification of the ontology, including architecture of the
 API and description of the datatypes defines can be found in the
-latest :strong:`2021-04 version` of the official :strong:`Destination
+official :strong:`Destination
 Data specs` (`pdf
 <https://www.alpinebits.org/wp-content/uploads/2021/05/AlpineBits-DestinationData-2021-04.pdf>`_
 ).

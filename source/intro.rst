@@ -29,9 +29,8 @@ Project Overview
 ================
 
 The |odh| project envisions the development and set up of a portal
-whose primary purpose is to offer a single access point to all (Open)
-Data from the region of South Tyrol, Italy, that are relevant for the
-economy sector and its actors.
+whose primary purpose is to offer a single access point to European (Open)
+Data.
 
 The availability of Open Data from a single source will allow
 everybody to utilise the Data in several ways:
@@ -75,9 +74,7 @@ General Transit Feed Specification <https://gtfs.org/>`_ (GTFS),
 `Alpinebits <https://www.alpinebits.org/>`_.
 
 The |odh| team also strives to keep all data regularly updated, and
-use standard exchange formats for them like `Json
-<https://www.json.org/>`_ and the `Data Catalog Vocabulary
-<https://www.w3.org/TR/vocab-dcat/>`_ (DCAT) to facilitate their
+use standard exchange formats to facilitate their
 spreading and use. Depending on the development of the project and the
 interest of users, more standards and data formats might be supported
 in the future.
