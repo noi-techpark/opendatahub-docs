@@ -4,8 +4,6 @@
 |ODH| Architecture
 ==================
 
-.. versionchanged:: 2023-09 replace obsolete architecture description
-
 The architecture of the |odh| has grown over time from a software that
 could be run on (almost) anyone's box with little requirements to a
 fully fledged infrastructure built on `Kubernetes
@@ -21,4 +19,4 @@ these reasons, and to allow developers to remain updated on the
 evolution of the |odh| ecosystem, a dedicated repository has been
 created, that contains the full information and is updated constantly.
 
-The repository is available at https://github.com/noi-techpark/odh-infrastructure-v2
+The repository is available at https://github.com/noi-techpark/infrastructure-v2

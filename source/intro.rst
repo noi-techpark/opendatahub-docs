@@ -5,12 +5,12 @@
  Introduction
 ==============
 
-   `Accessing the Open Data Hub` as part of this section.
+   `Accessing the Open Data Hub`
 
 This is the website of the |ODH| documentation, a collection of
 technical resources about the |odh| project. The website serves as the
 main resource portal for everyone interested in accessing the data or
-deploying apps based on :term:`datasets <Dataset>` & :term:`API`\s
+deploying apps based on datasets <Dataset> & API\s
 provided by the |odh| team.
 
 The technical stuff is composed of:
@@ -48,10 +48,6 @@ everybody to utilise the Data in several ways:
 * Internet portals and websites. Data are retrieved from the |odh| and
   visualised within graphical charts, graphs, or maps.
 
-There are many services and software that rely on |odh|\'s Data, which
-are listed in the :ref:`applist` section, grouped according to their
-maturity: production stage, beta and alpha stage.
-
 .. _domains-diagram:
 
 .. figure:: /images/domain.png
@@ -61,7 +57,7 @@ maturity: production stage, beta and alpha stage.
    An overview of the |odh| Project.
 
 :numref:`domains-diagram` gives a high level overview of the flow of
-data within the |odh|\: at the bottom, :term:`sensors <Sensor>` gather
+data within the |odh|\: at the bottom, sensors gather
 data from various domains, which are fed to the |odh| Big Data
 infrastructure and made available through endpoints to (third-party)
 applications, web sites, and vocal assistants. A more technical and

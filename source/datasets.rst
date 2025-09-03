@@ -24,7 +24,7 @@ geographic position or a small electronic device on a plug of an
 e-charging station that checks the if the plug is being used or not,
 to let people know that the charging outlet is available.
 
-Datasets are accessible through a :term:`REST API`, the URL of each
+Datasets are accessible through a REST API, the URL of each
 endpoint is given along with other information in the description of
 each dataset, see the lists of datasets in the remainder of this
 section.
@@ -81,7 +81,7 @@ Since some of the datasets may contain data that can not be
 distributed by the Open Data Hub team under an open licence like,
 e.g., |cc0| or |bysa|, a user will be able to retrieve from each
 dataset only those data that are distributed as :strong:`Open
-Data`. The response to a query is in JSON format (although :term:`CSV`
+Data`. The response to a query is in JSON format (although CSV
 output can be forced) and is :strong:`always` licensed as Open
 Data. However, the response may include resources like links to web
 pages, streams, or images that are subject to a different, even

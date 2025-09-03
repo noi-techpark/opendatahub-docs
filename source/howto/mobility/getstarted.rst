@@ -42,7 +42,7 @@ V2` controller, :strong:`/v2/{representation}`, then click on
 Station types in the resulting list can be used in the other methods to
 retrieve additional data about each of them. To check which station
 belongs to which datasets, you can check the list of
-:ref:`mobility-datasets`.
+mobility-datasets.
 
 .. _mobility-api_examples:
 

@@ -20,7 +20,7 @@ Browser access
 Accessing data in the Open Data Hub by using a browser is useful on
 different levels: for the casual user, who can have a look at the
 type and quality of data provided; for a developer, that can use
-the :term:`REST API` implemented by the Open Data Hub or even check
+the REST API implemented by the Open Data Hub or even check
 if the results of his app are coherent with those retrieved with
 the API; for everyone in order to get acquainted with the various
 methods to retrieve data.

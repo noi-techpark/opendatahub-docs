@@ -16,7 +16,7 @@ same URL through their Swagger user interface:
 
 https://tourism.api.opendatahub.com/swagger/index.html
 
-.. hint:: Check section :ref:`tourism-datasets` for direct URLs to the
+.. hint:: Check section tourism-datasets for direct URLs to the
    datasets.
 
 With the introduction on the Tourism API graphic interface of a newer

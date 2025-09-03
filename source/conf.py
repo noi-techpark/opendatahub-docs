@@ -74,7 +74,7 @@ author = u'The Open Data Hub Team'
 # built documents.
 #
 # The short X.Y version.
-version = u'2023.09'
+version = u'2025.09'
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -110,9 +110,7 @@ rst_prolog = """
 # IMPORTANT! not all links can be shortened (i.e., when they are
 # within example GET calls), so make sure to fix those as well.
 
-extlinks = { 'sasabus':
-             ('http://sasabus.org/%s', None),
-             'stinfo':
+extlinks = { 'stinfo':
              ('https://tourism.api.opendatahub.com/#%s', None),
              'apit':
              ('https://tourism.api.opendatahub.com/v1%s', None),
