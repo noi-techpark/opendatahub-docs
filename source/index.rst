@@ -14,9 +14,7 @@ Welcome to |odh| Documentation Repository!
    quickstart
    Project Overview & Interactions <intro>
    datasets
-   howto
-   guidelines
-   applist
+   howto   
    appendices
 
 

@@ -16,7 +16,7 @@ The `AlpineBits DestinationData
 <https://www.alpinebits.org/destinationdata/>`_ is a standardisation
 effort to allow the exchange of information related to mountains,
 events, tourism. Developed by the AlpineBits Alliance, Destination
-Data relies on a number of standards (Including :term:`json`, REST
+Data relies on a number of standards (Including json, REST
 API, Schema.org, OntoUML) to build the :strong:`AlpineBits
 DestinationData Ontology`, the core result of the effort. The goal of
 `DestinationData` it to provide a means to describe events, their
@@ -27,7 +27,7 @@ Areas`, `Places`, `Trails`, `Agents`, and so on.
 
 The full specification of the ontology, including architecture of the
 API and description of the datatypes defines can be found in the
-latest :strong:`2021-04 version` of the official :strong:`Destination
+official :strong:`Destination
 Data specs` (`pdf
 <https://www.alpinebits.org/wp-content/uploads/2021/05/AlpineBits-DestinationData-2021-04.pdf>`_
 ).

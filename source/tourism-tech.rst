@@ -40,25 +40,6 @@ The calls defined for every datasets are:
 
 - :literal:`/api/{Name}` Return the whole dataset.
 - :literal:`/api/{Name}/{Id}` Return only item with given :literal:`{Id}`\.
-- :literal:`/api/{Name}Reduced` Return only the list of Ids and
-  respective name of the items in the dataset. It is useful to create
-  lists of items or just to have an overview of the dataset's items.
-- :literal:`/api/{Name}Changed` Return all items that have changed
-  since date :literal:`YYYY-MM-DD`
-- :literal:`/api/{Name}Types` Returns all types of data present in
-  the dataset, that can be later used to ask more precise queries to
-  the dataset.
-
-The following calls have been :strong:`removed` and can not be used
-anymore. They have been replaced by a new filter, called `language`,
-that operates on the datasets in a similar way to the
-:ref:`fields-filter` and is described in section
-:ref:`language-filter`.
-
-- :strike:`/api/{Name}Localized Return the whole dataset in only
-  the given language (which is a mandatory part of the query)`
-- :strike:`/api/{Name}Localized/{Id} Return only item with given Id
-  an in given language.`
 
 .. _common-filters:
 
@@ -73,14 +54,11 @@ Filters are used within a dataset and their primary purpose is to
 limit the result set according to specific parameters, although they
 might not be available in every API call. Information about default
 values can be found for each datasets in the `swagger interface
-<https://tourism.opendatahub.com/swagger/ui/index>`_ of the API. Some
-examples of their use can be found in section :doc:`/howto/tourism/tips`.
+<https://tourism.opendatahub.com/swagger/ui/index>`_ of the API. 
 
-- :strong:`Seed` is used to set pagination. See tip :ref:`TT3
-  <tour-tt3>`.
+- :strong:`Seed` is used to set pagination.
 - :strong:`Locfilter` is a composed parameters that uniquely
-  identifies a location within South Tyrol. See example :ref:`EX2
-  <tour-ex2>` for a detailed example.
+  identifies a location within South Tyrol.
 - :strong:`Latitude` and :strong:`Longitude` are used to identify the
   (absolute) positioning of a location, point of interest, event, or
   any other type of object. They must be entered in decimal form
@@ -92,13 +70,6 @@ examples of their use can be found in section :doc:`/howto/tourism/tips`.
   crow flies.
 - :strong:`IdFilter` allows to extract from the dataset only the items
   with the given IDs, separated with a :literal:`,`.
-- :strong:`Active` and :strong:`OdhActive`. Filters with the same
-  name, with one prefixed by :strong:`Odh` refer to the same
-  parameter. The difference is however important: :strong:`Active`
-  indicates that the item is present in the original dataset provided,
-  while :strong:`OdhActive` shows that the item has been verified by
-  the Open Data Hub team and is present in the Open Data Hub. See
-  discussion in tip :ref:`TT2 <tour-tt2>`.
 - :strong:`ODHTag` allows to filter a result set according to tag
   defined by the Open Data Hub team. These tags are mostly related
   with places to see, activities that can be carried out in winter or
@@ -286,9 +257,7 @@ retrieve and save data in CSV format:
   The output of this query will be in CSV format.
 
 * When using an API Development Environment like Postman, add `accept:
-  text/csv` to the Header of the request. See detailed procedure and
-  screenshot can be found in the :ref:`postman-export` section of
-  Postman's howto.
+  text/csv` to the Header of the request. 
 
 .. _tourism-input-data:
 
@@ -314,7 +283,7 @@ strings, dates, and integers.
    codes produces a unique number. The advantage is that, instead of
    entering multiple strings that should be matched, you simply need
    to enter a number as a filter, that is the sum of the values'
-   corresponding codes. See :ref:`Example 3 <tour-ex3>`.
+   corresponding codes
 
 :strong:`Lists`
    A list is an (unordered) sequence of items. The available values
@@ -324,9 +293,7 @@ strings, dates, and integers.
 
 :strong:`Compound values`
    Compound values refer to those values that need a prefix before the
-   type of value. See for example :ref:`Example2 <tour-ex2>` for a
-   deeper explanation and  :ref:`Example 1 <tour-ex1>` for a sample
-   query that fails because  a wrong compound value was supplied.
+   type of value.
 
 :strong:`Language`
    The descriptions of items in the dataset appear in three languages:

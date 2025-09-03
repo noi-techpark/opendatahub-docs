@@ -8,7 +8,7 @@ Domains and Datasets
    .. include:: /includes/domains.rst
 
 The goal of the Open Data Hub project is to make available datasets containing
-data about the South Tyrolean ecosystem, to allow third parties to
+data about the European ecosystem, to allow third parties to
 develop novel applications on top of them, consuming the exposed
 data. These applications may range from a simple processing of
 datasets to extract statistical data and to display the result in
@@ -24,7 +24,7 @@ geographic position or a small electronic device on a plug of an
 e-charging station that checks the if the plug is being used or not,
 to let people know that the charging outlet is available.
 
-Datasets are accessible through a :term:`REST API`, the URL of each
+Datasets are accessible through a REST API, the URL of each
 endpoint is given along with other information in the description of
 each dataset, see the lists of datasets in the remainder of this
 section.
@@ -81,7 +81,7 @@ Since some of the datasets may contain data that can not be
 distributed by the Open Data Hub team under an open licence like,
 e.g., |cc0| or |bysa|, a user will be able to retrieve from each
 dataset only those data that are distributed as :strong:`Open
-Data`. The response to a query is in JSON format (although :term:`CSV`
+Data`. The response to a query is in JSON format (although CSV
 output can be forced) and is :strong:`always` licensed as Open
 Data. However, the response may include resources like links to web
 pages, streams, or images that are subject to a different, even
@@ -147,26 +147,8 @@ These licenses are applied to the |odh| components:
 * All the :strong:`software` released within the |odh| is Free software and
   complies with the GPLv3 license.  |gpl| Code repositories can be
   found at https://github.com/noi-techpark.
-* The :strong:`Datasets` currently expose only Open Data that are in
+* The :strong:`Datasets` currently expose Open Data that are in
   the public domain, so they are released as CC0. |cc0|
-* The :strong:`APIs` have no license yet, since we are in the process to define
-  which among the CC licenses could fit best. See :numref:`dac-lm` for
-  an overview and quick description of CC licenses and derivative
-  material.
-
-CC0 Licensed Data
-~~~~~~~~~~~~~~~~~
-
-Open Data Hub provides a live updated table about the number of CC0
-licensed data it contains. Please note, this data is calculated on
-some datasets and does not consider all datasets of the whole Open
-Data Hub yet.
-
-https://databrowser.opendatahub.com/Home/LicenseStatus
-
-.. note:: There is an additional clarification about the licence for
-   any content that is retrieved from the datasets in JSON format,
-   which is detailed in Section :ref:`license-json-records`.
 
 .. _dac-lm:
 
@@ -178,49 +160,12 @@ https://databrowser.opendatahub.com/Home/LicenseStatus
 
 .. include:: /includes/json-license.rst
 
-   
-APIs Terms of Service
-~~~~~~~~~~~~~~~~~~~~~
-
-The |odh| project is already used in production for NOI internal
-projects, and in particular it is the data hub used by the South
-Tyrolean tourism portal, https://www.suedtirol.info/en/.
-
-The public API are in early development and therefore should be still
-considered as a :strong:`beta` version. If any third party would like
-to use a stable version of the APIs in its production environment, a
-special agreement must be signed with `NOI techpark
-<https://noi.bz.it/en>`_. You can contact |contact| for any information.
-
-Authentication
-~~~~~~~~~~~~~~
-
-The authentication layer is currently intended for :strong:`internal
-use only`. All data in the dataset that you can receive from the Open Data Hub
-are free to use and do not require any type of authentication.
-
-.. _mobility-datasets:
-
-.. _tourism-datasets:
-
-.. _other-domains-datasets:
 
 Datasets
 --------
 
-.. versionchanged:: 2022.06 API v1 for Mobility domain are no longer
-   available.
-
-.. versionchanged:: 2022.10 Removed information about datasets
-
 The list of datasets and all the information associated with them have
-been moved to the |odh| main web site with the same categorisation,
-hence you can find them in the following pages:
-
-* :home:`Mobility / Mobility <mobility>` datasets
-* :home:`Mobility / Traffic <traffic>` datasets
-* :home:`Tourism <tourism>` datasets
-* :home:`Other <others>` datasets.
+been moved to the |odh| main web site. https://opendatahub.com/datasets/
 
 To access the dataset, please refer to the
 :doc:`/howto/mobility/getstarted` and :doc:`/howto/tourism/getstarted`

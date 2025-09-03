@@ -15,19 +15,6 @@ in a non-interactive way from a remote site and can be used with a
 variety of options and can save the contents it downloads, which can
 them be send to other applications and manipulated.
 
-The number of options required by :program:`curl` to retrieve data
-from Open Data Hub's dataset is limited, usually they are not more
-than 3 or 4, but their syntax and content might become long and not
-easily readable by a human, due to the number of :ref:`filters
-<common-filters>` available. For example, to retrieve the list of all
-points of interests in South Tyrol, the following command should be
-used:
-
-.. code-block:: bash
-		
-   ~$ curl -X GET "https://tourism.api.opendatahub.com/v1/ODHActivityPoi?pagenumber=1&pagesize=10&type=63&subtype=null&poitype=null&idlist=null&locfilter=null&langfilter=null&areafilter=null&highlight=null&source=null&odhtagfilter=null&odhactive=null&active=null&seed=null&latitude=null&longitude=null&radius=null" -H "accept: application/json"
-
-
 Your best opportunity to learn about the correct syntax and parameters
 to use is to go to the :strong:`swagger interface` of the `tourism
 <https://tourism.opendatahub.com/swagger/ui/index>`_ or `mobility
